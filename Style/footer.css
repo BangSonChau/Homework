@@ -1,0 +1,189 @@
+footer{
+  /* background-color: lightblue; */
+  /* max-width:1200px; */
+  /* margin: auto; */
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 200px;
+  padding: 50px 50px;
+}
+/*-------------------------------- top --------------------------------*/
+
+footer .footer-top{
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+/* .footer-top .top-left{
+  /* flex: 1; */
+
+.top-left .footer-content1{
+  width:296px ;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.top-left .footer-content1 h1{
+  font-weight: 600;
+  font-size: 32.8px;
+  color: rgba(247, 126, 35, 1);
+}
+
+.top-left .footer-content1 p{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+
+.top-left .footer-content1 nav ul {
+  display: flex;
+  gap: 25px;
+}
+.footer-content1 nav ul li{
+  list-style: none;
+}
+
+.footer-content1 nav ul li a{
+  color: white;
+}
+
+/* footer .top-right{
+/* flex: 2; */
+
+footer .top-right .footer-content2{
+  display: flex;
+  gap: 120px;
+}
+
+.footer-content2 .information{
+  width: 322px;
+  /* border-style: solid; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.information .Address p,
+.information .Phone p,
+.information .Email p{
+  font-family:Poppins ;
+  font-weight: 600;
+  font-size: 16px;
+}
+.information .Address p:nth-of-type(2),
+.information .Phone p:nth-of-type(2),
+.information .Email p:nth-of-type(2){
+  font-weight: 400;
+}
+
+footer .top-right .footer-content2 .information-2{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.information-2 .company a{
+  font-family:Poppins ;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.information-2 .AFC nav ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.information-2 .AFC nav ul li a{
+  text-decoration: none;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+
+/*-------------------------------- middle --------------------------------*/
+
+footer .footer-middle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-middle .middle-content{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.footer-middle .middle-content p{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.footer-middle .middle-content input{
+  width: 545px;
+  height: 52px;
+  border: none;
+}
+
+.footer-middle .middle-content input::placeholder{
+  font-family:Poppins ;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(247, 126, 35, 1);
+}
+
+.footer-middle .middle-content button{
+  position: absolute;
+  width: 126px;
+  height: 52px;
+  bottom: 0;
+  right: 0;
+  border: none;
+  background-color: rgba(247, 126, 35, 1);
+  color: white;
+}
+
+/*-------------------------------- footer --------------------------------*/
+
+footer .footer-bottom{
+  display: flex;
+  /* max-width: 1700px; */
+  /* margin: auto; */
+  padding-left: 230px;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-bottom p:nth-of-type(1){
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 20px;
+  color: rgba(247, 126, 35, 1);
+}
+.footer-bottom p:nth-of-type(1) i{
+  font-size: 24px;
+  align-items: center;
+}
+.footer-bottom p:nth-of-type(2){
+  font-size: 24px;
+  font-weight: 400;
+  font-family: Poppins;
+  color: white;
+}

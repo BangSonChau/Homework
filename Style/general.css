@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Source Code Pro, Roboto, Arial;
+  /* background-color: lightblue; */
+  /* padding-bottom: 2000px; */
+  min-height: 100vh;
+  z-index: 0;
+  max-width: 1440vw;
+}
