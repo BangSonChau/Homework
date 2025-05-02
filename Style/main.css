@@ -64,6 +64,14 @@ main .content-1 .content-1-skills{
   filter: drop-shadow(0px 21px 97px rgba(113, 113, 113, 0.25));
 }
 
+main .content-1 .content-1-skills .three-skills,
+main .content-1 .content-1-skills .three-skills .two-skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
 main .content-1 .content-1-skills .content-1-skills-layout{
   display: flex;
   align-items: center;
@@ -119,7 +127,12 @@ main .content-2 .background .content-2-final{
   padding-top: 200px;
   gap: 50px;
 }
-
+main .content-2 .background .content-2-final .content-2-h2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 main .content-2 .background .content-2-final h2{
   font-family: Poppins;
   font-size: 48px;
@@ -134,6 +147,7 @@ main .content-2 .background .content-2-image{
 }
 main .content-2 .background .content-2-image .SeeAll-nav{
   text-align: end;
+  
 }
 
 main .content-2 .background .content-2-image a{
@@ -148,7 +162,6 @@ main .content-2 .background .content-2-image .all-image{
   position: relative;
   display: flex;
   justify-content: space-between;
-  
 }
 
 main .content-2 .background .content-2-image .all-image img:nth-of-type(1),
@@ -1575,3 +1588,103 @@ font-weight: 400;
 font-size: 18px;
 line-height: 30px;
 }
+
+@media (max-width:1350px){
+  main .content-2 .background .content-2-final{
+    align-items: start;
+    padding-left: 50px;
+    padding-top: 300px;
+  }
+  main .content-2 .background .content-2-image .all-image img:nth-of-type(1),
+  main .content-2 .background .content-2-image .all-image img:nth-of-type(2),
+  main .content-2 .background .content-2-image .all-image img:nth-of-type(3),
+  main .content-2 .background .content-2-image .all-image img:nth-of-type(4)
+  {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+  filter:brightness(40%);
+  }
+
+  main .content-2 .background .content-2-image .all-image .image-1 img{
+    object-position:-150px;
+  }
+  main .content-2 .background .content-2-image .all-image .explain-content
+  {
+    top:220px;
+  }
+  main .content-2 .background .content-2-image .all-image .content-2-nav{
+    display: none;
+  }
+}
+
+
+@media (max-width:1057px){
+  main .content-1 img{
+    top: 150px;
+    object-fit:cover;
+    object-position: -20px;
+  }
+  main .content-1 .content-1-skills .three-skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+  }
+  main .content-1 .content-1-skills{
+    background-color:transparent;
+  }
+}
+@media (max-width:1025px){
+  main .content-1 .content-1-skills .three-skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+  }
+  main .content-1 .content-1-skills{
+    margin-top: 70px;
+    background-color:transparent;
+    border-radius:0px;
+    width: 969px;
+    height: 136px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    filter: drop-shadow(0px 21px 97px rgba(113, 113, 113, 0.25));
+  }
+}
+
+@media (max-width:825px ) {
+  main .content-1 img{
+    object-fit: cover;
+    object-position: -150px;
+  }
+  main .content-1{
+    margin: 100px 0px 0px 0px;
+  }
+  main .content-1 h1{
+    height: 150px;
+    font-size: 32px;
+    width: 403px;
+  }
+  main .content-1 .content-topic{
+    font-size: 24px;
+    width:550px;
+    height: 150px;
+    font-weight: 400;
+    line-height: 36px;
+    color: white;
+  }
+  main .content-2 .background .content-2-image .SeeAll-nav{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+  }
+}
+
+
+
+
+
+

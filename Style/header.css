@@ -4,10 +4,29 @@ header{
   align-items: center;
   padding: 20px 0px;
 }
+header .mobile-bars{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
 
-header .logo h1{
+header .logo h1, header .bars, header svg{
  font-size: 32.8px;
  color:#F77E23;
+}
+header .bars{
+  color: black;
+  display: none;
+}
+/* header .bars{
+  display: none;
+} */
+
+header svg{
+  width: 50px;
+  display: none;
 }
 
 header nav ul{
@@ -87,3 +106,31 @@ header .header-right .header-right-login-button button{
   border: none;
   cursor: pointer;
 }
+
+@media (max-width:1057px){
+  header{
+    background-color: white;
+  }
+
+  header  .bars{
+    display: block;
+  } 
+
+  header nav ul{
+    display: none;
+  } 
+
+  header .header-right{
+    display: none;
+  }
+
+  header svg{
+    display: block;
+  }
+
+  
+
+
+}
+
+
