@@ -3,16 +3,18 @@
   padding:0;
   box-sizing: border-box;
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 body{
   font-family: Source Code Pro, Roboto, Arial;
   /* background-color: lightblue; */
-  /* padding-bottom: 2000px; */
+  padding-bottom: 2000px;
   min-height: 100vh;
   z-index: 0;
   max-width: 1440vw;
 }
 
 /* 1034 */
-
-
