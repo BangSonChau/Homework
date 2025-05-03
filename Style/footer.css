@@ -190,8 +190,8 @@ footer .footer-bottom{
 
 @media (max-width:415px){
   footer{
-    padding: 100px 20px ;
-    
+    padding: 100px 80px 100px 30px;
+    margin: 0px;
   }
   footer .footer-top-middle{
     display: flex;
@@ -206,7 +206,7 @@ footer .footer-bottom{
   
    .footer-middle .middle-content{
     align-items: start;
-    
+    margin-left: 20px;
   }
 
   .footer-middle .middle-content p{
@@ -214,7 +214,7 @@ footer .footer-bottom{
     margin-bottom: 20px;
   }
   .footer-middle .middle-content input{
-    width: 380px;
+    width: 325px;
     height: 36.06605529785156px;
   }
 
@@ -223,7 +223,7 @@ footer .footer-bottom{
     height: 36.06605529785156px;
   }
   footer .top-right .footer-content2{
-    gap: 50px;
+    gap: 20px;
   }
 
   .top-left .footer-content1 p{
@@ -234,6 +234,9 @@ footer .footer-bottom{
     flex-direction: column;
     align-items: start;
     gap: 10px;
+  }
+  .footer-content2 .information{
+    width: 231px;
   }
 }
 
