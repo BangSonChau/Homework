@@ -107,10 +107,15 @@ header .header-right .header-right-login-button button{
   cursor: pointer;
 }
 
-@media (max-width:1057px){
+@media (max-width:426px){
   header{
     background-color: white;
   }
+
+  header .logo h1, header .bars, header svg{
+  font-size: 23.96px;
+  color:#F77E23;
+  } 
 
   header  .bars{
     display: block;
@@ -127,10 +132,6 @@ header .header-right .header-right-login-button button{
   header svg{
     display: block;
   }
-
-  
-
-
 }
 
 
