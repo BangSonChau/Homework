@@ -1602,7 +1602,7 @@ line-height: 30px;
 
 }
 
-@media (max-width:426px ) {
+@media (max-width:415px) {
   /* ----------------content-1 --------------------*/
   main .content-2 .background .content-2-final h2{
     font-family: Poppins;
@@ -1673,81 +1673,60 @@ line-height: 30px;
 
 /* ----------------content-2 --------------------*/
 
-main .content-2 .background .content-2-final{
-  align-items: start;
-  padding-top: 300px;
-}
+  main .content-2 .background .content-2-final{
+    align-items: start;
+    padding-top: 300px;
+  }
 
-main .content-2 .background .content-2-image .all-image{
-  padding-left: 20px;
-  justify-content: start;
-  gap: 16px;
-}
-
-
-main .content-2 .background .content-2-image .all-image img:nth-of-type(1),
-main .content-2 .background .content-2-image .all-image img:nth-of-type(2),
-main .content-2 .background .content-2-image .all-image img:nth-of-type(3),
-main .content-2 .background .content-2-image .all-image img:nth-of-type(4)
-{
-width: 116px;
-height: 133px;
-border-radius: 5px;
-object-fit: cover;
-filter:brightness(40%);
-}
-
-main .content-2 .background .content-2-image .all-image .image-1 img{
-  object-position:-70px;
-}
-
-main .content-2 .background .content-2-image .all-image .image-3 img{
-  object-position: -70px;
-}
-
-main .content-2 .background .content-2-image .all-image .explain-content:hover{
-  transform: translateY(-60px);
-}
-
-main .content-2 .background .content-2-image .all-image .explain-content
-{
-  top:100px;
-  font-size: 16px;
-  padding: 0px 5px 0px 5px; 
-  width: 100px;
-  height:19px; 
-}
+  main .content-2 .background .content-2-image .all-image{
+    padding-left: 20px;
+    justify-content: start;
+    gap: 16px;
+  }
 
 
+  main .content-2 .background .content-2-image .all-image img:nth-of-type(1),
+  main .content-2 .background .content-2-image .all-image img:nth-of-type(2),
+  main .content-2 .background .content-2-image .all-image img:nth-of-type(3),
+  main .content-2 .background .content-2-image .all-image img:nth-of-type(4)
+  {
+  width: 116px;
+  height: 133px;
+  border-radius: 5px;
+  object-fit: cover;
+  filter:brightness(40%);
+  }
 
+  main .content-2 .background .content-2-image .all-image .image-1 img{
+    object-position:-70px;
+  }
 
+  main .content-2 .background .content-2-image .all-image .image-3 img{
+    object-position: -70px;
+  }
 
+  main .content-2 .background .content-2-image .all-image .explain-content:hover{
+    transform: translateY(-60px);
+  }
 
-
-
-
-main .content-2 .background .content-2-image .all-image .content-2-nav{
-  display: none;
-}
-
-main .content-2 .background .content-2-image .all-image .explain-content p{
-  margin-top: 15px;
-  font-size: 5px;
-  color: transparent;
-  /* z-index: 1; */
-  pointer-events: none;
-  /* overflow: hidden; */
-}
-
-
-
-
-
+  main .content-2 .background .content-2-image .all-image .explain-content
+  {
+    top:100px;
+    font-size: 16px;
+    padding: 0px 5px 0px 5px; 
+    width: 100px;
+    height:19px; 
+  }
 
   main .content-2 .background .content-2-image .SeeAll-nav{
     width: 100%;
     display: flex;
-    justify-content:space-around;
+    justify-content:end;
+    padding-right: 850px;
+  }
+
+  main .content-2 .background .content-2-image .all-image .content-2-nav{
+    display: none;
   }
 }
 

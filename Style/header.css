@@ -107,7 +107,7 @@ header .header-right .header-right-login-button button{
   cursor: pointer;
 }
 
-@media (max-width:426px){
+@media (max-width:415px){
   header{
     background-color: white;
   }
