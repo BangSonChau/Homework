@@ -3,6 +3,7 @@ header{
   justify-content: space-around;
   align-items: center;
   padding: 20px 0px;
+  width: 100%;
 }
 header .mobile-bars{
   display: flex;
@@ -110,6 +111,7 @@ header .header-right .header-right-login-button button{
 @media (max-width:415px){
   header{
     background-color: white;
+
   }
 
   header .logo h1, header .bars, header svg{
@@ -133,5 +135,3 @@ header .header-right .header-right-login-button button{
     display: block;
   }
 }
-
-

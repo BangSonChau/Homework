@@ -17,4 +17,7 @@ body{
   max-width: 1440vw;
 }
 
+.container{
+  width: 100%;
+}
 /* 1034 */

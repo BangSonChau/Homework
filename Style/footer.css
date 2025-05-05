@@ -159,7 +159,10 @@ footer .footer-middle{
   color: white;
 }
 
-/*-------------------------------- footer --------------------------------*/
+/*-------------------------------- footer-bottom --------------------------------*/
+footer{
+  width: 100%;
+}
 
 footer .footer-bottom{
   display: flex;
@@ -240,3 +243,77 @@ footer .footer-bottom{
   }
 }
 
+@media (max-width:361px){
+  footer{
+    padding: 100px 80px 100px 30px;
+    margin: 0px;
+  }
+  
+  footer .footer-top-middle{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+
+  footer .footer-top{
+    flex-direction: column-reverse;
+    gap: 50px;
+  } 
+
+   .footer-middle .middle-content{
+    align-items: start;
+    margin-left: 60px;
+  }
+
+  .footer-middle .middle-content p{
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .footer-middle .middle-content input{
+    width: 320px;
+    height: 36.06605529785156px;
+  }
+
+  .footer-middle .middle-content button{
+    width: 87.85321044921875px;
+    height: 36.06605529785156px;
+  }
+
+  footer .top-right .footer-content2{
+    gap: 70px;
+  }
+
+  .top-left .footer-content1 p{
+    display: none;
+  }
+
+  .information .Address p,
+  .information .Phone p,
+  .information .Email p{  
+    font-size: 12px;
+  }
+
+  .information-2 .company a{
+    font-size: 12px;
+  }
+
+  .information-2 .AFC nav ul li a{
+    font-size: 12px;
+  }
+
+  footer .footer-bottom{
+    padding-left: 0;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+
+  .footer-content2 .information{
+    width: 231px;
+  }
+
+  .top-left .footer-content1 h1 {
+    margin-left: -5px;
+  } 
+}
