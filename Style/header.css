@@ -1,137 +1,173 @@
 header{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 20px 0px;
-  width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 20px 0px;
+width: 100%;
 }
 header .mobile-bars{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
+position: relative;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 30px;
 }
 
-header .logo h1, header .bars, header svg{
- font-size: 32.8px;
- color:#F77E23;
+header .logo h1, header .bars,header .marks, header svg{
+font-size: 32.8px;
+color:#F77E23;
 }
 header .bars{
-  color: black;
-  display: none;
+color: black;
+display: none;
 }
-/* header .bars{
-  display: none;
-} */
+header .bars{
+display: none;
+}
+
+header .marks{
+position: fixed;
+top: 75px;
+z-index: 100;
+display: none;
+}
+
 
 header svg{
-  width: 50px;
-  display: none;
+width: 50px;
+display: none;
 }
 
 header nav ul{
-  display: flex;
-  gap: 50px;
-  list-style: none;
+display: flex;
+gap: 50px;
+list-style: none;
 }
 
 header nav ul li .header-hover{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  transition: all 1s ease;
-  letter-spacing: -2%;
+position: relative;
+display: flex;
+flex-direction: column;
+transition: all 1s ease;
+letter-spacing: -2%;
 }
 
 header nav ul li .header-hover:hover{
-  transform: translateY(-30px);
+transform: translateY(-30px);
 }
 
 header nav ul li .header-hover:hover a:nth-of-type(1){
-  color: transparent;
-  transition: color 0.15s ease;
+color: transparent;
+transition: color 0.15s ease;
 }
 
+
 header nav ul li .header-hover a:nth-of-type(2){
-  color: transparent;
-  position: absolute;
-  transform: translateY(30px);
-  z-index: -2;
+color: transparent;
+position: absolute;
+transform: translateY(30px);
+z-index: -2;
 }
 
 header nav ul li .header-hover:hover a:nth-of-type(2){
-  color:rgba(36, 34, 67, 1) ;
-  transition: color 0.15s ease;
+color:rgba(36, 34, 67, 1) ;
+transition: color 0.15s ease;
 }
 
 header nav ul li a{
-  font-size: 16px;
-  font-weight: 600;
-  text-decoration: none;
-  color: white;
+font-size: 16px;
+font-weight: 600;
+text-decoration: none;
+color: white;
 }
 
 header .header-right{
-  display: flex;
-  align-items: center;
-  gap:24px;
+display: flex;
+align-items: center;
+gap:24px;
 }
 
 header .header-right i{
-  color: white; 
-  width: 18.71px;
-  height: 18.71px;
-  cursor: pointer;
+color: white; 
+width: 18.71px;
+height: 18.71px;
+cursor: pointer;
 }
 
 header .header-right .header-right-login-button{
-  display: flex;
-  align-items: center;
-  gap: 10px;
+display: flex;
+align-items: center;
+gap: 10px;
 }
 
 header .header-right .header-right-login-button a{
-  font-size: 16px;
-  padding:8px 18px;
-  text-decoration: none;
-  color: white;
+font-size: 16px;
+padding:8px 18px;
+text-decoration: none;
+color: white;
 }
 
 header .header-right .header-right-login-button button{
-  font-size: 16px;
-  padding: 12px 24px;
-  background-color: white;
-  color:#FF6F28;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
+font-size: 16px;
+padding: 12px 24px;
+background-color: white;
+color:#FF6F28;
+border-radius: 5px;
+border: none;
+cursor: pointer;
 }
 
 @media (max-width:415px){
-  header{
-    background-color: white;
+header{
+background-color: white;
+}
 
-  }
+header .logo h1, header .bars, header svg{
+font-size: 23.96px;
+color:#F77E23;
+} 
 
-  header .logo h1, header .bars, header svg{
-  font-size: 23.96px;
-  color:#F77E23;
-  } 
+header  .bars{
+display: block;
+} 
 
-  header  .bars{
-    display: block;
-  } 
+header nav{
+display: flex;
+justify-content: center;
+align-items: center;
+position: fixed;
+top: 0;
+left: 0;
+height: 100vh;
+width: 100%;
+background-color: black;
+opacity:0.9 ;
+transform: translateX(-100%);
+transition: all 0.15s ease;
+z-index: 99;
+}
 
-  header nav ul{
-    display: none;
-  } 
+header nav.active{
+transform: translateX(0);
 
-  header .header-right{
-    display: none;
-  }
+}
 
-  header svg{
-    display: block;
-  }
+header nav ul{
+flex-direction: column;
+gap: 50px;
+} 
+
+header nav ul li a{
+color: #FF6F28;
+font-size: 23.96px;
+}
+
+header .header-right{
+display: none;
+}
+
+header svg{
+display: block;
+}
 }

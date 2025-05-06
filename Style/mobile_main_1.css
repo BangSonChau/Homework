@@ -1,0 +1,164 @@
+@media (max-width:394px){
+  /* ----------------content-1 --------------------*/
+  
+  main .content-1 h1{
+  height: 150px;
+  font-size: 26px;
+  width: 350px;
+  }
+  
+  main .content-1 .content-topic{
+  font-size:15px;
+  width:355px;
+  height: 150px;
+  }
+  /* ----------------content-2 --------------------*/
+  
+  main .content-2 .background .content-2-final h2 {
+  font-size: 24px;
+  }
+  
+  main .content-2 .background .content-2-image .SeeAll-nav{
+  width: 100%;
+  display: flex;
+  justify-content:end;
+  padding-right: 870px;
+  }
+  
+  /* ----------------content-3 --------------------*/
+  
+  /* ----------------content-4 --------------------*/
+  
+  
+  /* ----------------content-5 --------------------*/
+  
+  /* ----------------content-6 --------------------*/
+  
+  main .content-6 .background .content-6-image .SeeAll-nav{
+  width: 100%;
+  display: flex;
+  justify-content:end;
+  padding-right: 870px;
+  }
+  
+  /* ----------------content-7 --------------------*/
+  
+  /* ----------------content-8 --------------------*/
+  
+  
+  main .content-8 .background .content-8-image .SeeAll-nav{
+  width: 100%;
+  display: flex;
+  justify-content:end;
+  padding-right: 870px;
+  }
+  
+  /* ----------------content-9 --------------------*/
+  
+  /* ----------------content-10 --------------------*/
+  
+  
+  main .content-10 .background .content-10-image .SeeAll-nav{
+  width: 100%;
+  display: flex;
+  justify-content:end;
+  padding-right: 870px;
+  }
+  
+  main .content-10 .background .content-10-image .all-image .content-10-nav{
+  display: none;
+  }
+  
+  /* ----------------content-11--------------------*/
+  
+  main .content-11{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 0px;
+  margin: auto;
+  gap: 130px;
+  }
+  
+  .content-11 .content-11-top h1{
+  display: none;
+  }
+  
+  .content-11 .content-11-bottom{
+  display: flex;
+  flex-direction: column;
+  margin-left: 90px;
+  margin-right: 90px;
+  }
+  
+  .content-11-bottom-left .content-11-button{
+  display: flex;
+  gap: 48px;
+  } 
+  
+  .content-11 .content-11-bottom {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 90px 90px 90px;
+  }
+  
+  .content-11 .content-11-bottom .content-11-bottom-left{
+  flex-direction: row;
+  justify-content: center;
+  align-items:end;
+  gap: 0px;
+  }
+  
+  .content-11-bottom-left h1{
+  font-size: 24px;
+  width: 252px;
+  }
+  
+  .content-11-bottom-left h1 span svg{
+  position: absolute;
+  width: 100px;
+  top: 30px;
+  left: 0;
+  }
+  
+  .content-11-bottom-left .content-11-button i{
+  padding: 15px;
+  width:35.000003814697266px ;
+  height:35.000003814697266px ;
+  font-size: 10px;
+  }
+  
+  .content-11 .content-11-bottom .content-11-bottom-right{
+  align-items: start;
+  gap: 20px;
+  }
+  
+  .content-11-bottom-right .content-11-bottom-right-1,
+  .content-11-bottom-right .content-11-bottom-right-2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+  }
+  
+  .content-11-bottom-right .content-11-bottom-right-1 .top img,
+  .content-11-bottom-right .content-11-bottom-right-2 .top img{
+  width: 28px;
+  height: 28px;
+  }
+  
+  .content-11-bottom-right .content-11-bottom-right-1 .top .text-top p:nth-of-type(1),
+  .content-11-bottom-right .content-11-bottom-right-2 .top .text-top p:nth-of-type(1){
+  font-size: 12px;
+  line-height: 0px;
+  }
+  
+  .content-11-bottom-right .content-11-bottom-right-1 .bottom,
+  .content-11-bottom-right .content-11-bottom-right-2 .bottom{
+  width: 384px;
+  font-size: 12px;
+  width: 150px;
+  height:82px ;
+  line-height: 15px;
+  }
+  }
